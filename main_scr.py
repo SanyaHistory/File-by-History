@@ -1,4 +1,4 @@
-from kivy.config import Config
+﻿from kivy.config import Config
 Config.set('kivy','keyboard_mode','system')
 
 Config.set('graphics','resizable', True)
