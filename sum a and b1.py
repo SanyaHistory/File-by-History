@@ -1,3 +1,4 @@
 a=int(input('a='))
 b=float(input('b='))
-print(a+b)
+c=str(input('c='))
+print(a+b+c)
