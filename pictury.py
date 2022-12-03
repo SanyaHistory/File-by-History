@@ -78,10 +78,10 @@ class SearchApp(App):
                         goo = str(rand.text)
                         moll = bool(re.search(text_2, goo))
                         if moll == True:
-                            self.lebel.text = 'есть это слово'
+                            self.lebel.text = ''
                             break
             except Exception:
-                self.lebel.text='ОШИБКА!'
+                self.lebel.text='!'
 
 if __name__ == '__main__':
     SearchApp().run()
